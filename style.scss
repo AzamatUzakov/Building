@@ -67,7 +67,7 @@
 
             @keyframes modal {
                 from {
-                    left: -600px;
+                    left: -1000px;
                     opacity: 0
                 }
 
@@ -84,13 +84,13 @@
                     color: #121212;
                     font-size: 55px;
                     margin-top: 15px;
+                    transition: 1s ease;
+                    animation-duration: 1s;
+                     animation-name: text_are;
                     h1 {
                         font-weight: 300;
                         text-transform: uppercase;
-
-                        transition: 1s ease;
-                        animation-duration: 1s;
-                        // animation-name: text_are;
+                     
                     }
                 }
 
@@ -100,20 +100,20 @@
                     font-weight: 300;
                     text-transform: uppercase;
                     margin-top: 30px;
+                
                 }
             }
 
             @keyframes text_are {
                 from {
-                    height: 10%;
                     opacity: 0;
-                    display: none;
+                    font-size: 0;
+                    
                 }
 
                 to {
-                    height: 100%;
                     opacity: 1;
-                    display: block;
+                    font-size: 55px;
                 }
             }
 
