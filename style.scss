@@ -147,12 +147,19 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 100%;
+                width: 50%;
+                display: flex;
+                margin: 0 auto;
                 height: 100vh;
                 margin-bottom: 300px;
                 position: relative;
+                border-radius: 100%;
 
-                p {
+                /*    border-end-end-radius: 0;
+                border-bottom-left-radius: 0;
+ */
+                .arch_titile {
+                    display: none;
                     color: #FFF;
                     text-align: center;
                     font-size: 40px;
