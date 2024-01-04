@@ -72,14 +72,13 @@
                         color: #121212;
                         margin-top: 50px;
                         font-size: 45px;
+                        transition: 1s ease;
+                        animation-duration: 1s;
+                        animation-name: text_are;
 
                         h1 {
                             font-weight: 300;
                             text-transform: uppercase;
-
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            // animation-name: text_are;
                         }
                     }
 
@@ -95,15 +94,14 @@
 
                 @keyframes text_are {
                     from {
-                        height: 10%;
                         opacity: 0;
-                        display: none;
+                        font-size: 0;
+
                     }
 
                     to {
-                        height: 100%;
                         opacity: 1;
-                        display: block;
+                        font-size: 45px;
                     }
                 }
 
@@ -195,14 +193,13 @@
                         color: #121212;
                         margin-top: 10px;
                         font-size: 40px;
+                        transition: 1s ease;
+                        animation-duration: 1s;
+                        animation-name: text_are;
 
                         h1 {
                             font-weight: 300;
                             text-transform: uppercase;
-
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            // animation-name: text_are;
                         }
                     }
 
@@ -217,15 +214,14 @@
 
                 @keyframes text_are {
                     from {
-                        height: 10%;
                         opacity: 0;
-                        display: none;
+                        font-size: 0;
+
                     }
 
                     to {
-                        height: 100%;
                         opacity: 1;
-                        display: block;
+                        font-size: 40px;
                     }
                 }
 
@@ -315,14 +311,13 @@
                         color: #121212;
                         margin-top: 30px;
                         font-size: 30px;
+                        transition: 1s ease;
+                        animation-duration: 1s;
+                        animation-name: text_are;
 
                         h1 {
                             font-weight: 300;
                             text-transform: uppercase;
-
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            // animation-name: text_are;
                         }
                     }
 
@@ -335,332 +330,334 @@
                     }
                 }
 
-                @keyframes text_are {
-                    from {
-                        height: 10%;
-                        opacity: 0;
-                        display: none;
-                    }
-
-                    to {
-                        height: 100%;
-                        opacity: 1;
-                        display: block;
-                    }
-                }
-
-            }
-        }
-    }
-
-}
-
-////////max-width:650px//////
-
-
-
-
-
-@media (max-width:530px) {
-
-
-    .main_contener {
-
-        .art_building_box {
-
-            .flex_art {
-                display: block;
-                gap: 20px;
-                //   align-items: center;
-
-                .img_case {
-                    width: 100%;
-                    position: relative;
-                    height: 500px;
-                }
-
-                .img_position {
-                    position: absolute;
-                    top: 0px;
-                    left: 0%;
-                    //translate: -50%;
-                    display: block;
-                    width: 100%;
-
-                    transition: 1s ease;
-                    opacity: 1;
-                    animation-duration: 1s;
-                    animation-name: modal;
-
-
-
-
-
-                    img {
-                        width: 100%;
-                        display: none;
-                    }
-
-                    .img_media {
-                        display: block;
-                        width: 100%;
-                        height: 100%;
-                        z-index: -2;
-                        position: relative;
-                    }
-
-
-                    .positon_call {
-
-                        position: absolute;
-                        display: flex;
-                        justify-content: space-between;
-                        width: 100%;
-                        //  align-items: center;
-
-                        margin-top: 10px;
-
-
-                        .call_box {
-
-                            width: 20px;
-                            height: 20px;
-                            background-image: url(./public/menu.png);
-                            margin: 0 10px;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            cursor: pointer;
-                            &:nth-child(1) {
-                                background-image: url(./public/simple-line-icons_call-end.png);
-                                cursor: pointer;
-                            }
-
-                            img {
-                                width: 20px;
-                                height: 20px;
-                                z-index: 33;
-                            }
-                        }
-
-                    }
-
-                }
-
-                @keyframes modal {
-                    from {
-                        top: -1000px;
-                        opacity: 0
-                    }
-
-                    to {
-                        right: 0;
-                        opacity: 1
-                    }
-                }
-
-                .art_text {
-                    position: relative;
-                    margin-left: 10px;
-
-                    .title_case {
-                        color: #121212;
-                        margin-top: 0px;
-                        font-size: 40px;
-                        margin-top: 20px;
-
-                        h1 {
-                            font-weight: 300;
-                            text-transform: uppercase;
-                            line-height: 90%;
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            // animation-name: text_are;
-                        }
-                    }
-
-                    .positon_p {
-                        color: #000;
-                        font-size: 12px;
-                        font-weight: 300;
-                        text-transform: uppercase;
-                        margin-top: 20px;
-                        margin-left: 10px;
-
-                    }
-                }
 
                 @keyframes text_are {
                     from {
-                        height: 10%;
                         opacity: 0;
-                        display: none;
+                        font-size: 0;
+
                     }
 
                     to {
-                        height: 100%;
                         opacity: 1;
-                        display: block;
-                    }
-                }
-
-            }
-        }
-    }
-
-}
-
-////////max-width:550px//////
-
-
-
-@media (max-width:300px) {
-
-
-    .main_contener {
-
-        .art_building_box {
-
-            .flex_art {
-                display: block;
-                gap: 20px;
-                //   align-items: center;
-
-                .img_case {
-                    width: 100%;
-                    position: relative;
-                    height: 500px;
-                }
-
-                .img_position {
-                    position: absolute;
-                    top: 0px;
-                    left: 0%;
-                    //translate: -50%;
-                    display: block;
-                    width: 100%;
-
-                    transition: 1s ease;
-                    opacity: 1;
-                    animation-duration: 1s;
-                    animation-name: modal;
-
-
-
-
-
-                    img {
-                        width: 100%;
-                        display: none;
-                    }
-
-                    .img_media {
-                        display: block;
-                        width: 100%;
-                        height: 100%;
-                        z-index: -2;
-                        position: relative;
-                    }
-
-
-                    .positon_call {
-
-                        position: absolute;
-                        display: flex;
-                        justify-content: space-between;
-                        width: 100%;
-                        //  align-items: center;
-
-                        margin-top: 10px;
-
-
-                        .call_box {
-
-                            width: 20px;
-                            height: 20px;
-                            background-image: url(./public/menu.png);
-                            margin: 0 10px;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-cursor: pointer;
-                            &:nth-child(1) {
-                                background-image: url(./public/simple-line-icons_call-end.png);
-cursor: pointer;
-                            }
-
-                            img {
-                                width: 20px;
-                                height: 20px;
-                                z-index: 33;
-                            }
-                        }
-
-                    }
-
-                }
-
-                @keyframes modal {
-                    from {
-                        top: -1000px;
-                        opacity: 0
-                    }
-
-                    to {
-                        right: 0;
-                        opacity: 1
-                    }
-                }
-
-                .art_text {
-                    position: relative;
-                    margin-left: 10px;
-
-                    .title_case {
-                        color: #121212;
-                        margin-top: 0px;
                         font-size: 30px;
-                        margin-top: 20px;
+                    }
 
-                        h1 {
-                            font-weight: 300;
-                            text-transform: uppercase;
-                            line-height: 90%;
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            // animation-name: text_are;
+                }
+            }
+        }
+
+    }
+
+    ////////max-width:650px//////
+
+
+
+
+
+    @media (max-width:530px) {
+
+
+        .main_contener {
+
+            .art_building_box {
+
+                .flex_art {
+                    display: block;
+                    gap: 20px;
+                    //   align-items: center;
+
+                    .img_case {
+                        width: 100%;
+                        position: relative;
+                        height: 500px;
+                    }
+
+                    .img_position {
+                        position: absolute;
+                        top: 0px;
+                        left: 0%;
+                        //translate: -50%;
+                        display: block;
+                        width: 100%;
+
+                        transition: 1s ease;
+                        opacity: 1;
+                        animation-duration: 1s;
+                        animation-name: modal;
+
+
+
+
+
+                        img {
+                            width: 100%;
+                            display: none;
+                        }
+
+                        .img_media {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -2;
+                            position: relative;
+                        }
+
+
+                        .positon_call {
+
+                            position: absolute;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            //  align-items: center;
+
+                            margin-top: 10px;
+
+
+                            .call_box {
+
+                                width: 20px;
+                                height: 20px;
+                                background-image: url(./public/menu.png);
+                                margin: 0 10px;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                cursor: pointer;
+
+                                &:nth-child(1) {
+                                    background-image: url(./public/simple-line-icons_call-end.png);
+                                    cursor: pointer;
+                                }
+
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 33;
+                                }
+                            }
+
+                        }
+
+                    }
+
+                    @keyframes modal {
+                        from {
+                            top: -1000px;
+                            opacity: 0
+                        }
+
+                        to {
+                            right: 0;
+                            opacity: 1
                         }
                     }
 
-                    .positon_p {
-                        color: #000;
-                        font-size: 12px;
-                        font-weight: 300;
-                        text-transform: uppercase;
-                        margin-top: 20px;
+                    .art_text {
+                        position: relative;
                         margin-left: 10px;
 
+                        .title_case {
+                            color: #121212;
+                            margin-top: 0px;
+                            font-size: 40px;
+                            margin-top: 20px;
+                            transition: 1s ease;
+                            animation-duration: 1s;
+                            animation-name: text_are;
+
+                            h1 {
+                                font-weight: 300;
+                                text-transform: uppercase;
+                                line-height: 90%;
+
+                            }
+                        }
+
+                        .positon_p {
+                            color: #000;
+                            font-size: 12px;
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            margin-top: 20px;
+                            margin-left: 10px;
+
+                        }
                     }
+
+
+                    @keyframes text_are {
+                        from {
+                            opacity: 0;
+                            font-size: 0;
+
+                        }
+
+                        to {
+                            opacity: 1;
+                            font-size: 40px;
+                        }
+                    }
+
                 }
-
-                @keyframes text_are {
-                    from {
-                        height: 10%;
-                        opacity: 0;
-                        display: none;
-                    }
-
-                    to {
-                        height: 100%;
-                        opacity: 1;
-                        display: block;
-                    }
-                }
-
             }
         }
+
     }
 
-}
+    ////////max-width:550px//////
 
-////////max-width:300px//////
+
+
+    @media (max-width:300px) {
+
+
+        .main_contener {
+
+            .art_building_box {
+
+                .flex_art {
+                    display: block;
+                    gap: 20px;
+                    //   align-items: center;
+
+                    .img_case {
+                        width: 100%;
+                        position: relative;
+                        height: 500px;
+                    }
+
+                    .img_position {
+                        position: absolute;
+                        top: 0px;
+                        left: 0%;
+                        //translate: -50%;
+                        display: block;
+                        width: 100%;
+
+                        transition: 1s ease;
+                        opacity: 1;
+                        animation-duration: 1s;
+                        animation-name: modal;
+
+
+
+
+
+                        img {
+                            width: 100%;
+                            display: none;
+                        }
+
+                        .img_media {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            z-index: -2;
+                            position: relative;
+                        }
+
+
+                        .positon_call {
+
+                            position: absolute;
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            //  align-items: center;
+
+                            margin-top: 10px;
+
+
+                            .call_box {
+
+                                width: 20px;
+                                height: 20px;
+                                background-image: url(./public/menu.png);
+                                margin: 0 10px;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                cursor: pointer;
+
+                                &:nth-child(1) {
+                                    background-image: url(./public/simple-line-icons_call-end.png);
+                                    cursor: pointer;
+                                }
+
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 33;
+                                }
+                            }
+
+                        }
+
+                    }
+
+                    @keyframes modal {
+                        from {
+                            top: -1000px;
+                            opacity: 0
+                        }
+
+                        to {
+                            right: 0;
+                            opacity: 1
+                        }
+                    }
+
+                    .art_text {
+                        position: relative;
+                        margin-left: 10px;
+
+                        .title_case {
+                            color: #121212;
+                            margin-top: 0px;
+                            font-size: 30px;
+                            margin-top: 20px;
+                            transition: 1s ease;
+                            animation-duration: 1s;
+
+                            // animation-name: text_are;
+                            h1 {
+                                font-weight: 300;
+                                text-transform: uppercase;
+                                line-height: 90%;
+
+                            }
+                        }
+
+                        .positon_p {
+                            color: #000;
+                            font-size: 12px;
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            margin-top: 20px;
+                            margin-left: 10px;
+
+                        }
+                    }
+
+
+                    @keyframes text_are {
+                        from {
+                            opacity: 0;
+                            font-size: 0;
+
+                        }
+
+                        to {
+                            opacity: 1;
+                            font-size: 20px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }}
+    
