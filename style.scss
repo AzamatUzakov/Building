@@ -38,30 +38,31 @@
                     height: 600px;
                     display: block;
                 }
-                .img_media{
+
+                .img_media {
                     display: none;
                 }
 
-                .positon_call{
+                .positon_call {
 
                     position: absolute;
                     display: none;
                     justify-content: space-between;
                     width: 100%;
-                  //  align-items: center;
-                    
+                    //  align-items: center;
+
                     margin-top: 10px;
-                    
-                    
-                    .call_box{
-                       
-                        img{
+
+
+                    .call_box {
+
+                        img {
                             width: 20px;
                             height: 20px;
                             margin: 0 10px;
                         }
                     }
-                   
+
                 }
             }
 
@@ -86,21 +87,22 @@
                     margin-top: 15px;
                     transition: 1s ease;
                     animation-duration: 1s;
-                     animation-name: text_are;
+
+                    // animation-name: text_are;
                     h1 {
                         font-weight: 300;
                         text-transform: uppercase;
-                     
+
                     }
                 }
 
                 .positon_p {
                     color: #000;
-                     font-size: 14px;
+                    font-size: 14px;
                     font-weight: 300;
                     text-transform: uppercase;
                     margin-top: 30px;
-                
+
                 }
             }
 
@@ -108,7 +110,7 @@
                 from {
                     opacity: 0;
                     font-size: 0;
-                    
+
                 }
 
                 to {
@@ -119,4 +121,57 @@
 
         }
     }
+
+
+    //////two_block/////
+
+
+    .architect_building_box {
+display: none;
+        .arch_title {
+            h1 {
+                text-align: center;
+                margin-top: 200px;
+                font-size: 50px;
+                color: #000000;
+                font-weight: 300;
+                letter-spacing: 20px;
+                text-transform: uppercase;
+            }
+
+            margin-bottom: 40px;
+        }
+
+        .baground_img {
+            .one_arch_img {
+                background-image: url(./public/one_photo_arch.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                margin-bottom: 300px;
+                position: relative;
+
+                p {
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 300;
+                    line-height: 103.7%;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 50%;
+                    transform: translatey(-50%);
+                    left: 17%;
+                    word-spacing: 15px;
+                    padding: 10px;
+
+
+                }
+            }
+        }
+    }
+
+
 }
