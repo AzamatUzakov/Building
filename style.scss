@@ -142,39 +142,62 @@
         }
 
         .baground_img {
+
             .one_arch_img_ {
                 background-image: url(./public/one_photo_arch.png);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                //  width: 50%;
+                position: relative;
+
+               // width: 100%;
                 display: flex;
                 margin: 0 auto;
                 height: 100vh;
                 margin-bottom: 300px;
-                position: relative;
-                // border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow-y: scroll;
+                overflow: hidden;
 
-                /*    border-end-end-radius: 0;
-                border-bottom-left-radius: 0;
- */
 
+.two_arch_img{
 
+    background-image: url(./public/two_photo_arch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+//width: 50%;
+    height: 100vh;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   // top: 100%;
+    z-index: 1;
+   // border-radius: 100%;
+
+}
 
                 .arch_titile {
-                    display: none;
+                    //display: none;
                     color: #FFF;
-                    text-align: center;
-                    font-size: 40px;
+                    font-size: 30px;
                     font-weight: 300;
                     line-height: 103.7%;
                     text-transform: uppercase;
-                    position: absolute;
-                    top: 50%;
-                    transform: translatey(-50%);
-                    left: 17%;
                     word-spacing: 15px;
-                    padding: 10px;
+                    z-index: 99;
+                    position: sticky;
+                    top: 50%;
+                    transform: translateY(-50%);
+
+                    /* 
+                    transition: .5s ease;
+                    scale: 0;
+                    transform: translateY(0px); */
 
 
                 }
@@ -185,13 +208,34 @@
 
 }
 
-[data-aos="custom"] {
+ [data-aos="custom"] {
     border-radius: 100%;
     width: 50%;
+    transition: 1s ease;
+
 }
 
 [data-aos="custom"].aos-animate {
     border-radius: 0%;
     width: 100%;
+    transition: 1s ease;
+    
+} 
+
+
+
+[data-aos="custom_two"] {
+    border-radius: 100%;
+    width: 50%;
+    transition: 1s ease;
+    top: 70%;
+
 }
 
+[data-aos="custom_two"].aos-animate {
+    border-radius: 0%;
+    width: 100%;
+    transition: 1s ease;
+    top: 0;
+    
+} 
