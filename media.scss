@@ -3,6 +3,7 @@
 
     .main_contener {
         .art_building_box {
+            margin-bottom: 300px;
 
             .flex_art {
                 display: flex;
@@ -74,7 +75,8 @@
                         font-size: 45px;
                         transition: 1s ease;
                         animation-duration: 1s;
-//
+
+                        //
                         h1 {
                             font-weight: 300;
                             text-transform: uppercase;
@@ -106,7 +108,27 @@
 
             }
         }
+
+
+
+        //////two_block//////
+        .architect_building_box {
+            .arch_title {
+                h2 {
+                    text-align: center;
+                    margin-top: 100px;
+                    font-size: 50px;
+                    color: #000000;
+                    font-weight: 300;
+                    letter-spacing: 20px;
+                    text-transform: uppercase;
+                }
+
+                margin-bottom: 40px;
+            }
+        }
     }
+
 
 }
 
@@ -120,6 +142,7 @@
     .main_contener {
 
         .art_building_box {
+            margin-bottom: 150px;
 
             .flex_art {
                 display: flex;
@@ -128,7 +151,7 @@
                 .img_case {
                     width: 40%;
                     position: relative;
-                    height: 100vh;
+                    // height: 100vh;
                 }
 
                 .img_position {
@@ -194,7 +217,8 @@
                         font-size: 40px;
                         transition: 1s ease;
                         animation-duration: 1s;
-//
+
+                        //
                         h1 {
                             font-weight: 300;
                             text-transform: uppercase;
@@ -225,6 +249,89 @@
 
             }
         }
+
+
+
+
+        //////two_block/////
+        .architect_building_box {
+            .arch_title {
+                h2 {
+                    text-align: center;
+                    margin-top: 0px;
+                    font-size: 50px;
+                    color: #000000;
+                    font-weight: 300;
+                    letter-spacing: 20px;
+                    text-transform: uppercase;
+                }
+
+                margin-bottom: 40px;
+            }
+
+            .baground_img {
+
+                .one_arch_img_ {
+                    background-image: url(./public/one_photo_arch.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+
+                    // width: 100%;
+                    display: flex;
+                    margin: 0 auto;
+                    height: 100vh;
+                    margin-bottom: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-y: scroll;
+                    overflow: hidden;
+
+
+                    .two_arch_img {
+
+                        background-image: url(./public/two_photo_arch.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        //width: 50%;
+                        height: 100vh;
+                        margin-bottom: 300px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        // top: 100%;
+                        z-index: 1;
+                        // border-radius: 100%;
+
+                    }
+
+                    .arch_titile {
+                        //display: none;
+                        color: #FFF;
+                        font-size: 25px;
+                        font-weight: 300;
+                        line-height: 130.7%;
+                        text-transform: uppercase;
+                        word-spacing: 12px;
+                        z-index: 99;
+                        position: sticky;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        /* 
+                        transition: .5s ease;
+                        scale: 0;
+                        transform: translateY(0px); */
+
+
+                    }
+                }
+            }
+        }
     }
 
 }
@@ -238,6 +345,7 @@
     .main_contener {
 
         .art_building_box {
+            margin-bottom: 150px;
 
             .flex_art {
                 display: flex;
@@ -246,7 +354,7 @@
                 .img_case {
                     width: 40%;
                     position: relative;
-                    height: 100vh;
+                    //  height: 100vh;
                 }
 
                 .img_position {
@@ -265,7 +373,7 @@
                     .positon_call {
 
                         position: absolute;
-                        display: block;
+                        display: none;
                         justify-content: space-between;
                         width: 100%;
                         //  align-items: center;
@@ -342,324 +450,574 @@
 
                 }
             }
+
+
+        }
+
+        //////two_block/////
+        .architect_building_box {
+            .arch_title {
+                h2 {
+                    text-align: center;
+                    margin-top: 0px;
+                    font-size: 30px;
+                    color: #000000;
+                    font-weight: 300;
+                    letter-spacing: 20px;
+                    text-transform: uppercase;
+                }
+
+                margin-bottom: 20px;
+            }
+
+            .baground_img {
+
+                .one_arch_img_ {
+                    background-image: url(./public/one_photo_arch.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+
+                    // width: 100%;
+                    display: flex;
+                    margin: 0 auto;
+                    height: 100vh;
+                    margin-bottom: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-y: scroll;
+                    overflow: hidden;
+
+
+                    .two_arch_img {
+
+                        background-image: url(./public/two_photo_arch.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        //width: 50%;
+                        height: 100vh;
+                        margin-bottom: 300px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        // top: 100%;
+                        z-index: 1;
+                        // border-radius: 100%;
+
+                    }
+
+                    .arch_titile {
+                        //display: none;
+                        color: #FFF;
+                        font-size: 18px;
+                        font-weight: 300;
+                        line-height: 130.7%;
+                        
+                        text-transform: uppercase;
+                        word-spacing: 10px;
+                        z-index: 99;
+                        position: sticky;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        /* 
+                    transition: .5s ease;
+                    scale: 0;
+                    transform: translateY(0px); */
+
+
+                    }
+                }
+            }
         }
 
     }
+}
 
-    ////////max-width:650px//////
-
-
-
+////////max-width:650px//////
 
 
-    @media (max-width:530px) {
 
 
-        .main_contener {
 
-            .art_building_box {
+@media (max-width:530px) {
 
-                .flex_art {
+
+    .main_contener {
+
+        .art_building_box {
+
+            .flex_art {
+                display: block;
+                gap: 20px;
+                //   align-items: center;
+
+                .img_case {
+                    width: 100%;
+                    position: relative;
+                    height: 500px;
+                }
+
+                .img_position {
+                    position: absolute;
+                    top: 0px;
+                    left: 0%;
+                    //translate: -50%;
                     display: block;
-                    gap: 20px;
-                    //   align-items: center;
+                    width: 100%;
 
-                    .img_case {
+                    transition: 1s ease;
+                    opacity: 1;
+                    animation-duration: 1s;
+                    animation-name: modal;
+
+
+
+
+
+                    img {
                         width: 100%;
-                        position: relative;
-                        height: 500px;
+                        display: none;
                     }
 
-                    .img_position {
-                        position: absolute;
-                        top: 0px;
-                        left: 0%;
-                        //translate: -50%;
+                    .img_media {
                         display: block;
                         width: 100%;
-
-                        transition: 1s ease;
-                        opacity: 1;
-                        animation-duration: 1s;
-                        animation-name: modal;
-
+                        height: 100%;
+                        z-index: -2;
+                        position: relative;
+                    }
 
 
+                    .positon_call {
 
+                        position: absolute;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        //  align-items: center;
 
-                        img {
-                            width: 100%;
-                            display: none;
+                        margin-top: 10px;
+
+                        .title_media_box {
+                            font-size: 24px;
+                            font-weight: 300;
+                            text-transform: uppercase;
                         }
 
-                        .img_media {
-                            display: block;
-                            width: 100%;
-                            height: 100%;
-                            z-index: -2;
-                            position: relative;
-                        }
+                        .call_box {
 
+                            width: 30px;
+                            height: 30px;
+                            background-image: url(./public/menu.png);
+                            margin: 0 10px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            cursor: pointer;
 
-                        .positon_call {
-
-                            position: absolute;
-                            display: flex;
-                            justify-content: space-between;
-                            width: 100%;
-                            //  align-items: center;
-
-                            margin-top: 10px;
-
-                            .title_media_box{
-                                font-size: 24px;
-                                font-weight: 300;
-                                text-transform: uppercase;
+                            &:nth-child(1) {
+                                background-image: url(./public/simple-line-icons_call-end.png);
+                                cursor: pointer;
                             }
 
-                            .call_box {
-
+                            img {
                                 width: 30px;
                                 height: 30px;
-                                background-image: url(./public/menu.png);
-                                margin: 0 10px;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;
-                                cursor: pointer;
-
-                                &:nth-child(1) {
-                                    background-image: url(./public/simple-line-icons_call-end.png);
-                                    cursor: pointer;
-                                }
-
-                                img {
-                                    width: 30px;
-                                    height:30px;
-                                    z-index: 33;
-                                }
-                            }
-
-                        }
-
-                    }
-
-                    @keyframes modal {
-                        from {
-                            top: -1000px;
-                            opacity: 0
-                        }
-
-                        to {
-                            right: 0;
-                            opacity: 1
-                        }
-                    }
-
-                    .art_text {
-                        position: relative;
-                        margin-left: 10px;
-
-                        .title_case {
-                            color: #121212;
-                            margin-top: 0px;
-                            font-size: 30px;
-                            margin-top: 15px;
-                            transition: 1s ease;
-                            animation-duration: 1s;
-                            letter-spacing: 10px;
-
-    //
-                            h1 {
-                                font-weight: 300;
-                                text-transform: uppercase;
-                                line-height: 90%;
-
+                                z-index: 33;
                             }
                         }
 
-                        .positon_p {
-                            color: #000;
-                            font-size: 12px;
-                            font-weight: 300;
-                            text-transform: uppercase;
-                            margin-top: 20px;
-                            margin-left: 6px;
-
-                        }
-                    }
-
-
-                    @keyframes text_are {
-                        from {
-                            opacity: 0;
-                            font-size: 0;
-
-                        }
-
-                        to {
-                            opacity: 1;
-                            font-size: 40px;
-                        }
                     }
 
                 }
+
+                @keyframes modal {
+                    from {
+                        top: -1000px;
+                        opacity: 0
+                    }
+
+                    to {
+                        right: 0;
+                        opacity: 1
+                    }
+                }
+
+                .art_text {
+                    position: relative;
+                    margin-left: 10px;
+
+                    .title_case {
+                        color: #121212;
+                        margin-top: 0px;
+                        font-size: 30px;
+                        margin-top: 15px;
+                        transition: 1s ease;
+                        animation-duration: 1s;
+                        letter-spacing: 10px;
+
+                        //
+                        h1 {
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            line-height: 90%;
+
+                        }
+                    }
+
+                    .positon_p {
+                        color: #000;
+                        font-size: 12px;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        margin-top: 20px;
+                        margin-left: 6px;
+
+                    }
+                }
+
+
+                @keyframes text_are {
+                    from {
+                        opacity: 0;
+                        font-size: 0;
+
+                    }
+
+                    to {
+                        opacity: 1;
+                        font-size: 40px;
+                    }
+                }
+
             }
         }
 
+
+          //////two_block/////
+          .architect_building_box {
+            .arch_title {
+                h2 {
+                    text-align: center;
+                    margin-top: 0px;
+                    font-size:20px;
+                    color: #000000;
+                    font-weight: 300;
+                    letter-spacing: 14px;
+                    text-transform: uppercase;
+                }
+
+                margin-bottom: 20px;
+            }
+
+            .baground_img {
+
+                .one_arch_img_ {
+                    background-image: url(./public/one_photo_arch.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+
+                    // width: 100%;
+                    display: flex;
+                    margin: 0 auto;
+                    height: 100vh;
+                    margin-bottom: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-y: scroll;
+                    overflow: hidden;
+
+
+                    .two_arch_img {
+
+                        background-image: url(./public/two_photo_arch.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        //width: 50%;
+                        height: 100vh;
+                        margin-bottom: 300px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        // top: 100%;
+                        z-index: 1;
+                        // border-radius: 100%;
+
+                    }
+
+                    .arch_titile {
+                        //display: none;
+                        color: #FFF;
+                        font-size: 15px;
+                        font-weight: 300;
+                        line-height: 140.7%;
+                        
+                        text-transform: uppercase;
+                        word-spacing: 10px;
+                        z-index: 99;
+                        position: sticky;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        /* 
+                    transition: .5s ease;
+                    scale: 0;
+                    transform: translateY(0px); */
+
+
+                    }
+                }
+            }
+        }
     }
 
-    ////////max-width:550px//////
+}
+
+////////max-width:550px//////
 
 
 
-    @media (max-width:300px) {
+@media (max-width:300px) {
 
 
-        .main_contener {
+    .main_contener {
 
-            .art_building_box {
+        .art_building_box {
 
-                .flex_art {
+            .flex_art {
+                display: block;
+                gap: 20px;
+                //   align-items: center;
+
+                .img_case {
+                    width: 100%;
+                    position: relative;
+                    height: 500px;
+                }
+
+                .img_position {
+                    position: absolute;
+                    top: 0px;
+                    left: 0%;
+                    //translate: -50%;
                     display: block;
-                    gap: 20px;
-                    //   align-items: center;
+                    width: 100%;
 
-                    .img_case {
+                    transition: 1s ease;
+                    opacity: 1;
+                    animation-duration: 1s;
+                    animation-name: modal;
+
+
+
+
+
+                    img {
                         width: 100%;
-                        position: relative;
-                        height: 500px;
+                        display: none;
                     }
 
-                    .img_position {
-                        position: absolute;
-                        top: 0px;
-                        left: 0%;
-                        //translate: -50%;
+                    .img_media {
                         display: block;
                         width: 100%;
-
-                        transition: 1s ease;
-                        opacity: 1;
-                        animation-duration: 1s;
-                        animation-name: modal;
-
+                        height: 100%;
+                        z-index: -2;
+                        position: relative;
+                    }
 
 
+                    .positon_call {
+
+                        position: absolute;
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        //  align-items: center;
+
+                        margin-top: 10px;
 
 
-                        img {
-                            width: 100%;
-                            display: none;
-                        }
+                        .call_box {
 
-                        .img_media {
-                            display: block;
-                            width: 100%;
-                            height: 100%;
-                            z-index: -2;
-                            position: relative;
-                        }
+                            width: 20px;
+                            height: 20px;
+                            background-image: url(./public/menu.png);
+                            margin: 0 10px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            cursor: pointer;
 
+                            &:nth-child(1) {
+                                background-image: url(./public/simple-line-icons_call-end.png);
+                                cursor: pointer;
+                            }
 
-                        .positon_call {
-
-                            position: absolute;
-                            display: flex;
-                            justify-content: space-between;
-                            width: 100%;
-                            //  align-items: center;
-
-                            margin-top: 10px;
-
-
-                            .call_box {
-
+                            img {
                                 width: 20px;
                                 height: 20px;
-                                background-image: url(./public/menu.png);
-                                margin: 0 10px;
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;
-                                cursor: pointer;
-
-                                &:nth-child(1) {
-                                    background-image: url(./public/simple-line-icons_call-end.png);
-                                    cursor: pointer;
-                                }
-
-                                img {
-                                    width: 20px;
-                                    height: 20px;
-                                    z-index: 33;
-                                }
-                            }
-
-                        }
-
-                    }
-
-                    @keyframes modal {
-                        from {
-                            top: -1000px;
-                            opacity: 0
-                        }
-
-                        to {
-                            right: 0;
-                            opacity: 1
-                        }
-                    }
-
-                    .art_text {
-                        position: relative;
-                        margin-left: 10px;
-
-                        .title_case {
-                            color: #121212;
-                            margin-top: 0px;
-                            font-size: 30px;
-                            margin-top: 20px;
-                            transition: 1s ease;
-                            animation-duration: 1s;
-
-                            // animation-name: text_are;
-                            h1 {
-                                font-weight: 300;
-                                text-transform: uppercase;
-                                line-height: 90%;
-
+                                z-index: 33;
                             }
                         }
 
-                        .positon_p {
-                            color: #000;
-                            font-size: 12px;
-                            font-weight: 300;
-                            text-transform: uppercase;
-                            margin-top: 20px;
-                            margin-left: 10px;
-
-                        }
-                    }
-
-
-                    @keyframes text_are {
-                        from {
-                            opacity: 0;
-                            font-size: 0;
-
-                        }
-
-                        to {
-                            opacity: 1;
-                            font-size: 20px;
-                        }
                     }
 
                 }
+
+                @keyframes modal {
+                    from {
+                        top: -1000px;
+                        opacity: 0
+                    }
+
+                    to {
+                        right: 0;
+                        opacity: 1
+                    }
+                }
+
+                .art_text {
+                    position: relative;
+                    margin-left: 10px;
+
+                    .title_case {
+                        color: #121212;
+                        margin-top: 0px;
+                        font-size: 20px;
+                        margin-top: 20px;
+                        transition: 1s ease;
+                        animation-duration: 1s;
+
+                        // animation-name: text_are;
+                        h1 {
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            line-height: 90%;
+
+                        }
+                    }
+
+                    .positon_p {
+                        color: #000;
+                        font-size: 10px;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                        margin-top: 20px;
+                        margin-left: 10px;
+
+                    }
+                }
+
+
+                @keyframes text_are {
+                    from {
+                        opacity: 0;
+                        font-size: 0;
+
+                    }
+
+                    to {
+                        opacity: 1;
+                        font-size: 20px;
+                    }
+                }
+
             }
         }
 
-    }}
+
+
+
+          //////two_block/////
+          .architect_building_box {
+            .arch_title {
+                h2 {
+                    text-align: center;
+                    margin-top: 0px;
+                    font-size: 17px;
+                    color: #000000;
+                    font-weight: 300;
+                    letter-spacing: 15px;
+                    text-transform: uppercase;
+                }
+
+                margin-bottom: 10px;
+            }
+
+            .baground_img {
+
+                .one_arch_img_ {
+                    background-image: url(./public/one_photo_arch.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+
+                    // width: 100%;
+                    display: flex;
+                    margin: 0 auto;
+                    height: 100vh;
+                    margin-bottom: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow-y: scroll;
+                    overflow: hidden;
+
+
+                    .two_arch_img {
+
+                        background-image: url(./public/two_photo_arch.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        //width: 50%;
+                        height: 100vh;
+                        margin-bottom: 300px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        // top: 100%;
+                        z-index: 1;
+                        // border-radius: 100%;
+
+                    }
+
+                    .arch_titile {
+                        //display: none;
+                        color: #FFF;
+                        font-size: 10px;
+                        font-weight: 300;
+                        line-height: 133.7%;
+                        
+                        text-transform: uppercase;
+                        word-spacing: 3px;
+                        z-index: 99;
+                        position: sticky;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        /* 
+                    transition: .5s ease;
+                    scale: 0;
+                    transform: translateY(0px); */
+
+
+                    }
+                }
+            }
+        }
+    }
+
+}

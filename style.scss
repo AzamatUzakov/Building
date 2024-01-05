@@ -150,7 +150,7 @@
                 background-size: cover;
                 position: relative;
 
-               // width: 100%;
+                // width: 100%;
                 display: flex;
                 margin: 0 auto;
                 height: 100vh;
@@ -162,31 +162,31 @@
                 overflow: hidden;
 
 
-.two_arch_img{
+                .two_arch_img {
 
-    background-image: url(./public/two_photo_arch.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-//width: 50%;
-    height: 100vh;
-    margin-bottom: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-   // top: 100%;
-    z-index: 1;
-   // border-radius: 100%;
+                    background-image: url(./public/two_photo_arch.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    //width: 50%;
+                    height: 100vh;
+                    margin-bottom: 300px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    // top: 100%;
+                    z-index: 1;
+                    // border-radius: 100%;
 
-}
+                }
 
                 .arch_titile {
                     //display: none;
                     color: #FFF;
                     font-size: 30px;
                     font-weight: 300;
-                    line-height: 103.7%;
+                    line-height: 130.7%;
                     text-transform: uppercase;
                     word-spacing: 15px;
                     z-index: 99;
@@ -208,7 +208,7 @@
 
 }
 
- [data-aos="custom"] {
+[data-aos="custom"] {
     border-radius: 100%;
     width: 50%;
     transition: 1s ease;
@@ -219,8 +219,8 @@
     border-radius: 0%;
     width: 100%;
     transition: 1s ease;
-    
-} 
+
+}
 
 
 
@@ -237,5 +237,5 @@
     width: 100%;
     transition: 1s ease;
     top: 0;
-    
-} 
+
+}
