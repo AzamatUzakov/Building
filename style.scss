@@ -142,22 +142,25 @@
         }
 
         .baground_img {
-            .one_arch_img {
+            .one_arch_img_ {
                 background-image: url(./public/one_photo_arch.png);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                width: 50%;
+                //  width: 50%;
                 display: flex;
                 margin: 0 auto;
                 height: 100vh;
                 margin-bottom: 300px;
                 position: relative;
-                border-radius: 100%;
+                // border-radius: 100%;
 
                 /*    border-end-end-radius: 0;
                 border-bottom-left-radius: 0;
  */
+
+
+
                 .arch_titile {
                     display: none;
                     color: #FFF;
@@ -181,3 +184,14 @@
 
 
 }
+
+[data-aos="custom"] {
+    border-radius: 100%;
+    width: 50%;
+}
+
+[data-aos="custom"].aos-animate {
+    border-radius: 0%;
+    width: 100%;
+}
+
